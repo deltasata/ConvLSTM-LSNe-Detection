@@ -1,5 +1,12 @@
 # HOLISMOKES XXI — lensed SN Ia detection from LSST-like time series
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+**In short:** a ConvLSTM (TensorFlow/Keras) that watches a multi-band image time series and
+updates a rare-event score with each new frame. Trained on 128,000 simulated sequences, it reaches
+a 70%+ true-positive rate at a 0.01% false-positive rate by the 9th frame. Application: finding
+gravitationally lensed supernovae in the Rubin/LSST survey.
+
 Code for:
 
 > **HOLISMOKES XXI: Detecting strongly lensed type Ia supernovae from time series
@@ -54,3 +61,7 @@ and rolls back after `NHOLD` bad epochs. The last cell loads the best epoch and
 plots the test-set score distribution.
 
 **This is a smoke test, not a reproduction.**
+
+## License
+
+MIT, see [LICENSE](LICENSE).
