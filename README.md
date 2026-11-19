@@ -10,8 +10,14 @@ gravitationally lensed supernovae in the Rubin/LSST survey.
 Code for:
 
 > **HOLISMOKES XXI: Detecting strongly lensed type Ia supernovae from time series
-> of multi-band LSST-like imaging data**
-> [arXiv:2605.05318](https://arxiv.org/abs/2605.05318)
+> of multi-band LSST-like imaging data, Part II**
+> Bag et al., A&A, in press (2026). [arXiv:2605.05318](https://arxiv.org/abs/2605.05318)
+
+which builds on Part I:
+
+> **HOLISMOKES XVII: Detecting strongly lensed SNe Ia from time series of multi-band
+> LSST-like imaging data**
+> Bag et al., A&A 707, A123 (2026). [arXiv:2506.22076](https://arxiv.org/abs/2506.22076)
 
 A ConvLSTM network that scores each epoch of a multi-band image time series as
 lensed SN Ia or not. Inputs are the image cube and the observation times.
